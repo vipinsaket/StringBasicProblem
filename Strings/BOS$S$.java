@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class BOS$S$ {
     public static void main(String[] args) {
+// this code for chenge second common element replace with $
+        
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a string ");
         String s=sc.nextLine();
