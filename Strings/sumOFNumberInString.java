@@ -1,5 +1,7 @@
 package Strings;
 
+// JAVA PROGRAM FOR SUM OF THE DIGIGTS IN THE GIVEN STRING
+
 public class sumOFNumberInString {
     public static void main(String[] args) {
         String s="ram@1498BX";
