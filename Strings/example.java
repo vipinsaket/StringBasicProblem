@@ -628,6 +628,14 @@ public class example {
 
 
 
+    public static String encode(String input) {
+        return Base64.getEncoder().encodeToString(input.getBytes(StandardCharsets.UTF_8));
+    }
+
+    public static String decode(String encoded) {
+        byte[] decodedBytes = Base64.getDecoder().decode(encoded);
+        return new String(decodedBytes, StandardCharsets.UTF_8);
+    }
 
 
 
