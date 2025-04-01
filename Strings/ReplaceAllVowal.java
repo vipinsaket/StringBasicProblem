@@ -2,6 +2,8 @@ package Strings;
 
 public class ReplaceAllVowal {
     public static void main(String[] args) {
+
+        System.out.println("program start form here");
         String s="Jspiders";
         String match="aeiouAEIOU";
         int len=s.length();
