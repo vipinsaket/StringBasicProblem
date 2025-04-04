@@ -1,6 +1,10 @@
 package Strings;
 
 public class Consonent_GT3 {
+
+    public static void st(int n){
+        System.out.println(n);
+    }
     public static void main(String[] args) {
         String s="Amaran";
         String str="aeiouAEIOU";
