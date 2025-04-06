@@ -7,6 +7,7 @@ public class ReplaceAllVowal {
         String s="Jspiders";
         String match="aeiouAEIOU";
         int len=s.length();
+        // replace vowal with empty 
 
         for(int i=0;i<s.length();i++){
             char c=s.charAt(i);
